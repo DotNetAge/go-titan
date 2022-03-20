@@ -4,9 +4,10 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"go-titan/config"
 	"net"
 	"strings"
+
+	"github.com/dotnetage/go-titan/config"
 
 	"google.golang.org/grpc/resolver"
 )

@@ -3,11 +3,12 @@ package service
 import (
 	"context"
 	"fmt"
-	"go-titan/auth"
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
+
+	"github.com/dotnetage/go-titan/auth"
 
 	health "google.golang.org/grpc/health/grpc_health_v1"
 

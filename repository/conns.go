@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"go-titan/config"
+	"github.com/dotnetage/go-titan/config"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/driver/postgres"

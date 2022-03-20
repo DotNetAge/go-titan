@@ -2,10 +2,11 @@ package service
 
 import (
 	"fmt"
-	auth "go-titan/auth"
-	"go-titan/config"
-	"go-titan/registry"
-	"go-titan/runtime"
+
+	auth "github.com/dotnetage/go-titan/auth"
+	"github.com/dotnetage/go-titan/config"
+	"github.com/dotnetage/go-titan/registry"
+	"github.com/dotnetage/go-titan/runtime"
 
 	uuid "github.com/satori/go.uuid"
 
