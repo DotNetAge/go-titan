@@ -1,9 +1,9 @@
 package jwt
 
 import (
-	"go-titan/auth"
 	"time"
 
+	"github.com/dotnetage/go-titan/auth"
 	go_jwt "github.com/golang-jwt/jwt"
 )
 

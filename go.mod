@@ -1,4 +1,4 @@
-module go-titan
+module github.com/dotnetage/go-titan
 
 go 1.17
 
@@ -6,6 +6,7 @@ require (
 	github.com/aead/chacha20poly1305 v0.0.0-20201124145622-1a5aba2a8b29
 	github.com/brianvoe/gofakeit/v6 v6.15.0
 	github.com/casbin/casbin/v2 v2.42.0
+	github.com/gocarina/gocsv v0.0.0-20220310154401-d4df709ca055
 	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/golang/glog v1.0.0
 	github.com/gorilla/handlers v1.5.1
@@ -16,7 +17,7 @@ require (
 	github.com/openzipkin/zipkin-go v0.4.0
 	github.com/satori/go.uuid v1.2.0
 	github.com/spf13/viper v1.10.1
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.7.1
 	go.etcd.io/etcd/api/v3 v3.5.2
 	go.etcd.io/etcd/client/v3 v3.5.2
 	go.uber.org/zap v1.21.0
@@ -79,7 +80,7 @@ require (
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	golang.org/x/net v0.0.0-20220127200216-cd36cc0744dd // indirect
-	golang.org/x/sys v0.0.0-20220318055525-2edf467146b5 // indirect
+	golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e // indirect
 	golang.org/x/text v0.3.7 // indirect
 	google.golang.org/genproto v0.0.0-20220314164441-57ef72a4c106 // indirect
 	gopkg.in/ini.v1 v1.66.2 // indirect

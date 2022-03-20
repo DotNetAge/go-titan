@@ -5,7 +5,9 @@ import (
 	"crypto/tls"
 	"crypto/x509"
 	"fmt"
-	"go-titan/config"
+
+	"github.com/dotnetage/go-titan/config"
+
 	"io/ioutil"
 	"net/http"
 	"os"

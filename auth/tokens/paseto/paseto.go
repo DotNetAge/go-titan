@@ -3,8 +3,9 @@ package paseto
 import (
 	"errors"
 	"fmt"
-	"go-titan/auth"
 	"time"
+
+	"github.com/dotnetage/go-titan/auth"
 
 	"github.com/aead/chacha20poly1305"
 	go_paseto "github.com/o1egl/paseto"

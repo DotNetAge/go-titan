@@ -30,17 +30,16 @@ func TestRules(t *testing.T) {
 			EndPoint: "/v1/api/accounts/{id}",
 		},
 	}
-	// repos := repository.New(repository.WithSQLite("test.db"))
+	//repos := repository.New(repository.WithSQLite("test.db"))
 
-	// rules, err := NewRules("res_data.csv")
-	// require.NoError(t, err)
-	// user := &Principal{
-	// 	Scopes: []string{
-	// 		"*",
-	// 	}}
+	rules, err := NewRules("res_data.csv")
+	require.NoError(t, err)
+	user := &Principal{
+		Scopes: []string{
+			"*",
+		}}
 
-	// ok, err := rules.Verify(user, &res[2])
-	// require.NoError(t, err)
-	// require.Equal(t, ok, true)
-	require.NotNil(t, res)
+	ok, err := rules.Verify(user, &res[2])
+	require.NoError(t, err)
+	require.Equal(t, ok, true)
 }

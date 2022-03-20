@@ -2,7 +2,8 @@ package broker
 
 import (
 	"context"
-	"go-titan/registry"
+
+	"github.com/dotnetage/go-titan/registry"
 )
 
 type Options struct {

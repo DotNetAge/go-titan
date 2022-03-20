@@ -3,11 +3,12 @@ package middlewares
 import (
 	"context"
 	"errors"
-	"go-titan/auth"
-	"go-titan/gateway"
 	"net/http"
 	"sort"
 	"strings"
+
+	"github.com/dotnetage/go-titan/auth"
+	"github.com/dotnetage/go-titan/gateway"
 
 	"github.com/casbin/casbin/v2"
 )

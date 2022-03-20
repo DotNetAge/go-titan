@@ -1,8 +1,9 @@
 package paseto
 
 import (
-	"go-titan/auth"
 	"time"
+
+	"github.com/dotnetage/go-titan/auth"
 )
 
 type Option func(*Options)

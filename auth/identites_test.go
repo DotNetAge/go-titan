@@ -1,10 +1,10 @@
 package auth
 
 import (
-	"go-titan/repository"
 	"testing"
 
 	"github.com/brianvoe/gofakeit/v6"
+	"github.com/dotnetage/go-titan/repository"
 	uuid "github.com/satori/go.uuid"
 	"github.com/stretchr/testify/require"
 )

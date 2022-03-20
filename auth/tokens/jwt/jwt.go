@@ -3,10 +3,10 @@ package jwt
 import (
 	"errors"
 	"fmt"
-	"go-titan/auth"
 	"sync"
 	"time"
 
+	"github.com/dotnetage/go-titan/auth"
 	go_jwt "github.com/golang-jwt/jwt"
 )
 

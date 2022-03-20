@@ -1,8 +1,9 @@
 package paseto
 
 import (
-	"go-titan/auth"
 	"testing"
+
+	"github.com/dotnetage/go-titan/auth"
 
 	uuid "github.com/satori/go.uuid"
 	"github.com/stretchr/testify/require"

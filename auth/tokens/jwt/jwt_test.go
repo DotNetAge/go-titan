@@ -1,10 +1,10 @@
 package jwt
 
 import (
-	"go-titan/auth"
 	"testing"
 	"time"
 
+	"github.com/dotnetage/go-titan/auth"
 	"github.com/stretchr/testify/require"
 )
 

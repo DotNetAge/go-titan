@@ -2,8 +2,9 @@ package etcd
 
 import (
 	"context"
-	"go-titan/runtime"
 	"time"
+
+	"github.com/dotnetage/go-titan/runtime"
 
 	"go.uber.org/zap"
 

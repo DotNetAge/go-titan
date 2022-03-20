@@ -5,10 +5,11 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"go-titan/registry"
-	"go-titan/runtime"
 	"strings"
 	"time"
+
+	"github.com/dotnetage/go-titan/registry"
+	"github.com/dotnetage/go-titan/runtime"
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.uber.org/zap"

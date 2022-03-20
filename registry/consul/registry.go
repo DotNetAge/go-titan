@@ -2,9 +2,10 @@ package consul
 
 import (
 	"fmt"
-	"go-titan/config"
-	"go-titan/registry"
-	"go-titan/runtime"
+
+	"github.com/dotnetage/go-titan/config"
+	"github.com/dotnetage/go-titan/registry"
+	"github.com/dotnetage/go-titan/runtime"
 
 	"github.com/hashicorp/consul/api"
 	"go.uber.org/zap"

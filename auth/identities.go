@@ -1,9 +1,9 @@
 package auth
 
 import (
-	"go-titan/repository"
 	"time"
 
+	"github.com/dotnetage/go-titan/repository"
 	uuid "github.com/satori/go.uuid"
 	"golang.org/x/crypto/bcrypt"
 )

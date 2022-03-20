@@ -2,9 +2,10 @@ package gateway
 
 import (
 	"fmt"
-	"go-titan/config"
-	"go-titan/registry"
-	"go-titan/runtime"
+
+	"github.com/dotnetage/go-titan/config"
+	"github.com/dotnetage/go-titan/registry"
+	"github.com/dotnetage/go-titan/runtime"
 
 	"github.com/golang/glog"
 	uuid "github.com/satori/go.uuid"

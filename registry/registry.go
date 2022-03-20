@@ -1,6 +1,6 @@
 package registry
 
-import "go-titan/runtime"
+import "github.com/dotnetage/go-titan/runtime"
 
 // Registry 服务注册器
 type Registry interface {
