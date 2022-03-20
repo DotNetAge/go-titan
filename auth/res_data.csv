@@ -1,0 +1,4 @@
+id, name, domain, url, type
+accounts, 帐号管理, www.titan.com, /v1/api/accounts/*, *
+accounts:read, 生成读取用户信息的权限, www.titan.com, /v1/api/accounts/{id}, get
+accounts:write, 生成可更新用户信息的权限, www.titan.com, /v1/api/accounts/{id}, put
