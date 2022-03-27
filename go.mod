@@ -13,6 +13,7 @@ require (
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.9.0
 	github.com/hashicorp/consul/api v1.12.0
+	github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible
 	github.com/o1egl/paseto v1.0.0
 	github.com/openzipkin/zipkin-go v0.4.0
 	github.com/satori/go.uuid v1.2.0
@@ -62,6 +63,8 @@ require (
 	github.com/jackc/pgx/v4 v4.15.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.4 // indirect
+	github.com/jonboulle/clockwork v0.2.3 // indirect
+	github.com/lestrrat-go/strftime v1.0.5 // indirect
 	github.com/magiconair/properties v1.8.5 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect

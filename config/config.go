@@ -52,3 +52,24 @@ func Init(conf interface{}) error {
 	}
 	return nil
 }
+
+func InitRemote(provider, endpoint, configPath string, conf interface{}) error {
+	runtime_viper := viper.New()
+	if err := runtime_viper.AddRemoteProvider(provider, endpoint, configPath); err != nil {
+		return err
+	}
+
+	// 因为在字节流中没有文件扩展名，所以这里需要设置下类型。
+	// 支持的扩展名有 "json", "toml", "yaml", "yml", "properties",
+	// "props", "prop", "env", "dotenv"
+	runtime_viper.SetConfigType("yaml")
+
+	if err := runtime_viper.ReadRemoteConfig(); err != nil {
+		return err
+	}
+
+	// 反序列化
+	runtime_viper.Unmarshal(&conf)
+	runtime_viper.WatchRemoteConfigOnChannel()
+	return nil
+}
